@@ -1,0 +1,20 @@
+:root {
+    --primary-green: rgb(63, 73, 63);
+}
+
+body {
+    background-color: var(--primary-green);
+}
+
+.navbar-item *{
+    color: var(--primary-green);
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color:var(--primary-green);
+}
+
+.nav-link:focus {
+    color:var(--primary-green);
+}
